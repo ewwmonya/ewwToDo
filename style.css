@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.dark-mode {
+    background-color: #2e2e2e;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0   4px   8px   rgba(0, 0, 0, 0.1);
+    width: 300px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#addTaskBtn {
+    box-shadow: 0   4px   8px   rgba(0, 0, 0, 0.1);
+    margin-left: 1vh;
+    width: 25%;
+    background-color: #28a745;
+    color: #f4f4f4;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+#addTaskBtn:hover{
+background-color: #28a746de;
+}
+
+button:hover {
+    opacity: 0.9; /* Slight opacity effect for a visual cue */
+    transform: translateY(-2px); /* Move the button up slightly */
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+button:hover {
+    opacity: 0.9; /* Slight opacity effect for a visual cue */
+    transform: translateY(-2px); /* Move the button up slightly */
+}
+li {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    text-decoration-color: #28a745;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between; /* Spreads buttons apart */
+    align-items: center;
+}
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.completed-btn {
+    background-color: #28a745;
+}
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+.completed-btn:hover {
+    background-color: #218838;
+}
+
+.remove-btn, .completed-btn {
+    box-shadow: 0   4px   8px   rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px; 
+    margin-bottom: 10px;
+    margin: 0 10px;
+}
