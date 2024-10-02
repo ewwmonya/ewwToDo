@@ -7,10 +7,7 @@ const taskInput = document.getElementById('taskInput');
 const addTaskBtn = document.getElementById('addTaskBtn');
 const taskList = document.getElementById('taskList');
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
 const addTask = () => {
     const taskText = taskInput.value;
     // This will test to see if the "Task Input is blank"
@@ -27,11 +24,7 @@ const addTask = () => {
     const listItem = document.createElement('li');
     listItem.classList.add('listItem');
     listItem.textContent = taskText;
-<<<<<<< HEAD
-=======
-    localStorage.setItem()
 
->>>>>>> origin/main
 
     // create remove button
     const removeBtn = document.createElement('button');
@@ -39,10 +32,7 @@ const addTask = () => {
     removeBtn.classList.add('remove-btn')
     removeBtn.addEventListener('click', function () {
         taskList.removeChild(listItem);
-<<<<<<< HEAD
         taskList.removeChild(btnContainer);
-=======
->>>>>>> origin/main
     });
 
     // Create complete button 
